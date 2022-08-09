@@ -71,7 +71,7 @@ body{
     grid-template-columns:repeat(3,1fr);
     grid-gap: 2%;
     color: white;
-    row-gap: 8%;
+    row-gap: 60px;
 }
 .image{
     width: 100%;
