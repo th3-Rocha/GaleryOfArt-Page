@@ -62,7 +62,12 @@ body{
     overflow:auto; /* new */
 }
 
-
+.headleft{
+    display:flex;
+     gap:35px; 
+     width: 80%; 
+     justify-content: right;
+}
 
 .header{
     color: #ffffff;
@@ -81,6 +86,7 @@ body{
     flex-direction: column;
     gap: 20px;
     color: #ffffff;
+    font-family: 'Times New Roman';
 }
 .styles{
     background-color: #a2373b00;
@@ -113,6 +119,13 @@ body{
     ::-webkit-scrollbar {
         display: none;
     }
+    .headleft{
+        display:flex;
+         gap:20px; 
+         width: 80%; 
+         justify-content: right;
+         font-size: 60%;
+    }
     .container{
         width:100vw;
         height:100vh;
@@ -137,6 +150,7 @@ body{
         gap: 10px;
         color: #ffffff;
         text-align: center;
+        
     }
     
     .gridPlace{
