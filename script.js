@@ -1,7 +1,5 @@
 var StyleType, OrderType;
 var Arts = document.querySelectorAll("art");
-console.log(Arts[0].getAttribute("ArtStyle"));
-
 function reOrganize(){
     var i=0;
     Arts.forEach(() =>{
@@ -13,6 +11,7 @@ function reOrganize(){
         }
         i++;
     })
+
 }
 
 function changeStyle(){

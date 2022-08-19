@@ -100,7 +100,6 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
-
 .gridArt{
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
