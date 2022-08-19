@@ -8,6 +8,7 @@
     <title>Galery Of Art AI</title>
 </head>
 <body>
+    
     <div class="container">
         <div class="header">
             <a>AiGallery.</a>
@@ -21,7 +22,7 @@
             <h3 style="font-family: dancing; font-size: 175%;" >GALLERY OF A.I CREATIONS CONTROLLED BY MURILO ROCHA</h3>
             <p style="font-weight: 300; font-family: 'Times New Roman', Times, serif;" >You can download the images to use wherever you want, all are in high quality, But you need to give me the credits.</p>
             <p style="font-weight: 300; font-family: 'Times New Roman'">STYLES</p>
-            <select class="styles" name="styles" id="styles">
+            <select class="styles" onChange="changeStyle(); reOrganize()" id="Selector01">
                 <option value="all">All Styles</option>
                 <option value="realism">Realism</option>
                 <option value="expressionism">Expressionism</option>
@@ -29,9 +30,9 @@
                 <option value="abstract">Abstract</option>
             </select>
             <p style="font-weight: 300; font-family: 'Times New Roman'">SORT BY</p>
-            <select class="styles" name="styles" id="styles">
-                <option value="all">The newest</option>
-                <option value="realism">By name</option>
+            <select class="styles" onChange="changeOrder()" id="Selector02">
+                <option value="newer">The newest</option>
+                <option value="alphabetic">By name</option>
             </select>
         </div>
 
@@ -39,40 +40,41 @@
 
         <div class="gridPlace">
             <div class="gridArt">
-                <art>
+                <art ArtStyle = "realism">
                     <image class = "image" src="arts/Realism paint of sunflowres2.png">
                     <span>Happy Sunflowres</span>
                 </art>
-                <art>
+                <art  ArtStyle = "surrealism">
                     <image class = "image" src="arts/Surrealism florest1.png">
                     <span>Path to the Light</span>
                 </art>
-                <art>
+                <art ArtStyle = "realism">
                     <image class = "image" src="arts/Realism paint of sunflowres1.png">
                     <span>Dawn Sunflowres</span>
                 </art>
-                <art>
+                <art ArtStyle = "expressionism">
                     <image class = "image" src="arts/Expressionism landscape.png">
                     <span>City's backyard</span>
                 </art>
-                <art>
+                <art ArtStyle = "expressionism">
                     <image class = "image" src="arts/Expressionism beach1.png">
                     <span>Blue's beach</span>
                 </art>
-                <art>
+                <art ArtStyle = "expressionism">
                     <image class = "image" src="arts/Expressionism beach2.png">
                     <span>Ocean Size</span>
                 </art>
-                <art>
+                <art ArtStyle = "surrealism">
                     <image class = "image" src="arts/Surrealism florest2.png">
                     <span>Godrays</span>
                 </art>
-                <art>
+                <art ArtStyle = "surrealism">
                     <image class = "image" src="arts/Surrealism florest3.png">
                     <span>Trees of Life</span>
                 </art>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
