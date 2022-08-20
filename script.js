@@ -10,7 +10,8 @@ function reOrganize(){
             Arts[i].style.display = "none";
         }
         i++;
-    })
+    }) 
+    //pensar em um algoritimo!!
 
 }
 

@@ -106,6 +106,7 @@ body{
     grid-gap: 2%;
     color: white;
     row-gap: 60px;
+    grid-auto-flow: dense;
 }
 .image{
     width: 100%;
